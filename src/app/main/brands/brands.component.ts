@@ -26,11 +26,11 @@ export class BrandsComponent {
       },
       {
         id : 3,
-        src: "assets/img/brand-1.svg",
+        src: "assets/img/brand-3.svg",
         alt: "brand-3",
         title: "brand-3",
       },
-      {
+      /*{
         id : 4,
         src: "assets/img/brand-2.svg",
         alt: "brand-4",
@@ -41,7 +41,7 @@ export class BrandsComponent {
         src: "assets/img/brand-1.svg",
         alt: "brand-1",
         title: "brand-1",
-      }
+      }*/
     ];
   }
 }
