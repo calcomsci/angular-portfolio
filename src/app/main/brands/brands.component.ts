@@ -20,7 +20,7 @@ export class BrandsComponent {
       },
       {
         id : 2,
-        src: "assets/img/brand-2.svg",
+        src: "assets/img/UPS_logo.jpg",
         alt: "brand-2",
         title: "brand-2",
       },
