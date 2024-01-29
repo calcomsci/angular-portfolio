@@ -16,6 +16,7 @@ import { ContactComponent } from './main/contact/contact.component';
 import {NgClickOutsideDirective} from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
 import { BrandsComponent } from './main/brands/brands.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BrandsComponent } from './main/brands/brands.component';
     WorkComponent,
     TestimonialsComponent,
     ContactComponent,
-    BrandsComponent
+    BrandsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

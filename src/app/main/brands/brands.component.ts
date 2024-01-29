@@ -9,6 +9,8 @@ import { options2 } from '../constant';
 })
 export class BrandsComponent {
   public slidesStore!: any[];
+  public genAI!: any[];
+
   public customOptions2: OwlOptions = options2;
   ngOnInit(): void {
     this.slidesStore = [
@@ -43,5 +45,28 @@ export class BrandsComponent {
         title: "brand-1",
       }*/
     ];
+
+    this.genAI = [
+      {
+      id : 1,
+      src: "assets/img/AI-hector-pro.jpeg",
+      alt: "brand-1",
+      title: "brand-1",
+      },
+      {
+      id : 2,
+      src: "assets/img/EF.jpeg",
+      alt: "brand-1",
+      title: "brand-1",
+      },
+      {
+      id : 3,
+      src: "assets/img/chatgpt-llm.png",
+      alt: "brand-1",
+      title: "brand-1",
+      },
+  ];
+
+
   }
 }
