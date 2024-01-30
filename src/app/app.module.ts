@@ -17,8 +17,13 @@ import {NgClickOutsideDirective} from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
 import { BrandsComponent } from './main/brands/brands.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 
 @NgModule({
+
+
+
   declarations: [
     AppComponent,
     HeaderComponent,
@@ -39,9 +44,14 @@ import { CarouselComponent } from './carousel/carousel.component';
     BrowserAnimationsModule,
     CarouselModule,
     ScrollSpyModule,
-    NgClickOutsideDirective
+    NgClickOutsideDirective,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+
+  bootstrap: [
+    AppComponent
+]
 })
 export class AppModule { }
+
+platformBrowserDynamic().bootstrapModule(AppModule);

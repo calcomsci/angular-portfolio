@@ -16,36 +16,36 @@ export class BrandsComponent {
     this.slidesStore = [
       {
         id : 1,
-        src: "assets/img/brand-1.svg",
-        alt: "brand-1",
-        title: "brand-1",
+        src: "assets/img/AI-monalisa.png",
+        alt: "AI Mona Lisa with a Laptop",
+        title: "AI Mona Lisa with a Laptop",
       },
       {
         id : 2,
-        src: "assets/img/brand-2.svg",
-        alt: "brand-2",
-        title: "brand-2",
+        src: "assets/img/AI-fizzbuzz.png",
+        alt: "AI can solve Leetcode for you",
+        title: "AI can solve Leetcode for you",
       },
       {
         id : 3,
-        src: "assets/img/brand-3.svg",
+        src: "assets/img/ai-resume-compare.png",
         alt: "brand-3",
-        title: "brand-3",
+        title: "Did my resume improve through generative AI? Up to you to decide.",
       },
-      /*{
+      {
         id : 4,
-        src: "assets/img/brand-2.svg",
+        src: "assets/img/AI-mlk-essay.png",
         alt: "brand-4",
-        title: "brand-4",
+        title: "AI-generated essay of Martin Luther King",
       },
       {
         id : 5,
-        src: "assets/img/brand-1.svg",
+        src: "https://youtu.be/3_GpGbwxuoc?si=N2nmH2KvjpDiDsFy",
         alt: "brand-1",
-        title: "brand-1",
-      }*/
+        title: "AI mimicking the voice of one artist, singing a song by another artist",
+      }
     ];
-
+/*
     this.genAI = [
       {
       id : 1,
@@ -66,7 +66,7 @@ export class BrandsComponent {
       title: "brand-1",
       },
   ];
-
+*/
 
   }
 }

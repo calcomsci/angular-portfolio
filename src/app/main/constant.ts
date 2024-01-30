@@ -1,27 +1,26 @@
 export const options2 = {
-    loop: true,
-    mouseDrag: true,
-    touchDrag: true,
-    pullDrag: true,
-    dots: false,
-    navSpeed: 700,
-    navText: ['', ''],
-    margin: 24,
-    responsive: {
-      0: {
-        items: 2
-      },
-      400: {
-        items: 3
-      },
-      740: {
-        items: 4
-      },
-      940: {
-        items: 5
-      }
+  loop: true,
+  mouseDrag: true,
+  touchDrag: true,
+  pullDrag: true,
+  dots: true,
+  navSpeed: 600,
+  navText: ['&#8249', '&#8250;'],
+  responsive: {
+    0: {
+      items: 1 
     },
-    nav: false
+    400: {
+      items: 2
+    },
+    760: {
+      items: 3
+    },
+    1000: {
+      items: 4
+    }
+  },
+  nav: true
   };
 
 
