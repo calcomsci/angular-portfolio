@@ -4,6 +4,8 @@ export const options2 = {
   touchDrag: true,
   pullDrag: true,
   dots: true,
+  video: true,
+  mergeFit: true,
   navSpeed: 600,
   navText: ['&#8249', '&#8250;'],
   responsive: {
@@ -25,8 +27,8 @@ export const options2 = {
 
 
 export const typeoptions = {
-    strings: ['Designer', 'Developer'],
-    typeSpeed: 100,
+    strings: ['Designer', 'Developer', 'Thinker'],
+    typeSpeed: 20,
     backSpeed: 100,
     showCursor: true,
     cursorChar: '|',

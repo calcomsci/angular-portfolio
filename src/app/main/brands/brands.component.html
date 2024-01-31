@@ -1,42 +1,45 @@
 <div class="container">
     <h2>AI-generated real work:</h2>
     <br>
-    <owl-carousel-o [options]="customOptions2">
+   <owl-carousel-o [options]="customOptions2">
         <ng-template carouselSlide>
           <div class="slide">
-            <img src="assets/img/AI-fizzbuzz.png" alt="img 1" />
+            <a href="assets/img/AI-fizzbuzz.png"></a><img src="assets/img/AI-fizzbuzz.png" alt="img 1" onclick="enlargeImg()" id="1"/>
             <p>AI can solve Leetcode-style questions</p>
           </div>
         </ng-template>
         <ng-template carouselSlide>
           <div class="slide">
-            <img src="assets/img/AI-monalisa.png" alt="img 2" />
+            <img src="assets/img/AI-monalisa.png" alt="img 2" id="2"/>
             <p>AI can alter famous classic art</p>
           </div>
         </ng-template>
         <ng-template carouselSlide>
           <div class="slide">
-            <img src="assets/img/AI-let-it-go.png" alt="img 3" />
+            <img src="assets/img/AI-let-it-go.png" alt="img 3" id="3"/>
             <p><a href="https://www.youtube.com/watch?v=zaplUvWyUKw">(Click to listen) AI can cover famous songs for you: Frozen - Let It Go</a></p>
 
           </div>
         </ng-template>
         <ng-template carouselSlide>
           <div class="slide">
-            <img src="assets/img/AI-mlk-essay.png" alt="img 4" />
-            <p>AI can help with your homework</p>
+            <img src="assets/img/AI-mlk-essay.png" alt="img 4" id="4"/>
+            <p>AI can write essays</p>
           </div>
         </ng-template>
         <ng-template carouselSlide>
           <div class="slide">
-            <img src="assets/img/ai-resume-compare.png" alt="img 5" />
+            
+            <img src="assets/img/ai-resume-compare.png" alt="img 5" id="5"/>
             <p>AI can spin a new look for your resume</p>
           </div>
         </ng-template>
-        <ng-template carouselSlide>
+        <!--<ng-template carouselSlide>
           <div class="slide">
-            <img src="https://via.placeholder.com/600/56a8c2" alt="img 6" />
+            <img src="https://via.placeholder.com/600/56a8c2" alt="img 6" id="6" />
           </div>
-        </ng-template>
+        </ng-template>-->
       </owl-carousel-o>
+
+   
 </div>
