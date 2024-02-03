@@ -29,7 +29,7 @@ export const options2 = {
 export const typeoptions = {
     strings: ['Designer', 'Developer', 'Thinker'],
     typeSpeed: 20,
-    backSpeed: 100,
+    backSpeed: 45,
     showCursor: true,
     cursorChar: '|',
     loop: true
