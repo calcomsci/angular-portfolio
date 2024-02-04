@@ -774,7 +774,7 @@ opacity: 1;
   // Styling
   
   section {
-      background: #F4F4F4;
+      background: #FFFFFF;
       /* The padding is what's causing the problem on your header section. There used to be 50px on the padding, and it's now 0px. */
       padding: 0px 0;
   }
