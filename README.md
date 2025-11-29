@@ -7,8 +7,8 @@ You are looking at the read me file of Hector De Perio's Angular Portfolio. <br 
 
 I will keep this here as a reminder so you can clone the template yourself, if you wish. <br />
 
-First off, you will need node.js installed to your system: node.js
-You can follow the rest of the steps below once you have node.js installed.
+First off, you will need node.js installed to your system: node.js <br />
+You can follow the rest of the steps below once you have node.js installed. <br />
 
 To run this on a MacOS environment: <br />
 1 Open Terminal <br />
